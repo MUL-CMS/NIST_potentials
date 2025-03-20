@@ -1,0 +1,403 @@
+pot_root: /home/david/work/LAMMPS_potentials/NIST_potentials/eam.fs
+potentials:
+- elements:
+  - Cu
+  - Zr
+  pot_file: 2009--Mendelev-M-I-Kramer-M-J-Ott-R-T-et-al--Cu-Zr/1/Cu-Zr_2.eam.fs
+- elements:
+  - Mg
+  pot_file: 2006--Sun-D-Y-Mendelev-M-I-Becker-C-A-et-al--Mg/1/Mg.eam.fs
+- elements:
+  - Cu
+  pot_file: 2013--Mendelev-M-I-King-A-H--Cu/1/Mendelev_Cu2_2012.eam.fs
+- elements:
+  - Cu
+  - fictional
+  pot_file: 2015--Borovikov-V-Mendelev-M-I-King-A-H-LeSar-R--fictional-Cu-6/1/MCu6_MendelevM_2014.eam.fs
+- elements:
+  - Cu
+  pot_file: 2008--Mendelev-M-I-Kramer-M-J-Becker-C-A-Asta-M--Cu/1/Cu1.eam.fs
+- elements:
+  - K
+  pot_file: 2016--Nichol-A-Ackland-G-J--K/2/K.eam.fs
+- elements:
+  - K
+  pot_file: 2016--Nichol-A-Ackland-G-J--K/3/K_v2.eam.fs
+- elements:
+  - V
+  pot_file: 2003--Han-S-Zepeda-Ruiz-L-A-Ackland-G-J-et-al--V/2/V.eam.fs
+- elements:
+  - Nb
+  - Ni
+  pot_file: 2016--Zhang-Y-Ashcraft-R-Mendelev-M-I-et-al--Ni-Nb/1/Ni-Nb_1.eam.fs
+- elements:
+  - Zr
+  pot_file: 2007--Mendelev-M-I-Ackland-G-J--Zr-3/2/Zr_3.eam.fs
+- elements:
+  - Zr
+  pot_file: 2007--Mendelev-M-I-Ackland-G-J--Zr-3/1/Zr_3.eam.fs
+- elements:
+  - Ag
+  - Au
+  - Cu
+  pot_file: 1990--Ackland-G-J-Vitek-V--Cu-Ag-Au/1/CuAgAu.eam.fs
+- elements:
+  - Hf
+  - Ta
+  - Ti
+  - Zr
+  - meta
+  pot_file: 2020--Wang-P-Bu-Y-Liu-J-et-al--meta-Ta-Hf-Zr-Ti/1/TaHfZrTi.eam.fs
+- elements:
+  - Cu
+  - fictional
+  pot_file: 2015--Borovikov-V-Mendelev-M-I-King-A-H-LeSar-R--fictional-Cu-2/1/MCu2_MendelevM_2014.eam.fs
+- elements:
+  - Cr
+  - Fe
+  - Ni
+  pot_file: 2017--Bonny-G-Bakaev-A-Olsson-P-et-al--Fe-Cr-Ni/1/FeCrNi_s.eam.fs
+- elements:
+  - W
+  pot_file: 2017--Mason-D-R-Nguyen-Manh-D-Becquart-C-S--W/1/W_MNB_JPCM17.eam.fs
+- elements:
+  - Fe
+  pot_file: 2010--Malerba-L-Marinica-M-C-Anento-N-et-al--Fe/1/M07_eam.fs
+- elements:
+  - TWIP
+  pot_file: 2017--Wang-P-Xu-S-Liu-J-et-al--TWIP/2/TWIP.eam.fs
+- elements:
+  - TWIP
+  pot_file: 2017--Wang-P-Xu-S-Liu-J-et-al--TWIP/1/Fe.eam.fs
+- elements:
+  - C
+  - Cr
+  - Fe
+  pot_file: 2022--Bonny-G-Bakaev-A-Terentyev-D--Fe-C-Cr/1/FeCCr_s.eam.fs
+- elements:
+  - Al
+  - fictional
+  pot_file: 2010--Mendelev-M-I-Rahman-M-J-Hoyt-J-J-Asta-M--fictional-Al-1/1/Fictional-Al1-1.eam.fs
+- elements:
+  - Cu
+  - fictional
+  pot_file: 2016--Borovikov-V-Mendelev-M-I-King-A-H--fictional-Cu-33/1/MCu33.eam.fs
+- elements:
+  - Cr
+  - Fe
+  pot_file: 2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/2/FeCr_s.eam.fs
+- elements:
+  - Cr
+  - Fe
+  pot_file: 2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/4/FeCr_s.eam.fs
+- elements:
+  - Cr
+  - Fe
+  pot_file: 2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/3/FeCr_s.eam.fs
+- elements:
+  - Cr
+  - Fe
+  - W
+  pot_file: 2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W/1/FeCrW_s.eam.fs
+- elements:
+  - Cr
+  - Fe
+  - W
+  pot_file: 2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W/4/FeCrW_s.eam.fs
+- elements:
+  - Cr
+  - Fe
+  - W
+  pot_file: 2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W/3/FeCrW_s.eam.fs
+- elements:
+  - V
+  - W
+  pot_file: 2020--Chen-Y-Liao-X-Gao-N-et-al--W-V/1/WV.eam.fs
+- elements:
+  - Fe
+  pot_file: 2012--Proville-L-Rodney-D-Marinica-M-C--Fe/1/MCM2011_eam.fs
+- elements:
+  - Rb
+  pot_file: 2016--Nichol-A-Ackland-G-J--Rb/2/Rb.eam.fs
+- elements:
+  - Rb
+  pot_file: 2016--Nichol-A-Ackland-G-J--Rb/3/Rb_v2.eam.fs
+- elements:
+  - Fe
+  pot_file: 2021--Mendelev-M-I--Fe/1/Fe_Earth_core.eam.fs
+- elements:
+  - Al
+  pot_file: 2008--Mendelev-M-I-Kramer-M-J-Becker-C-A-Asta-M--Al/1/Al1.eam.fs
+- elements:
+  - Cu
+  - fictional
+  pot_file: 2015--Borovikov-V-Mendelev-M-I-King-A-H-LeSar-R--fictional-Cu-7/1/MCu7_MendelevM_2014.eam.fs
+- elements:
+  - Cu
+  - fictional
+  pot_file: 2016--Borovikov-V-Mendelev-M-I-King-A-H--fictional-Cu-31/1/MCu31.eam.fs
+- elements:
+  - Al
+  - Mg
+  pot_file: 2009--Mendelev-M-I-Asta-M-Rahman-M-J-Hoyt-J-J--Al-Mg/1/Al-Mg.eam.fs
+- elements:
+  - Na
+  - fictional
+  pot_file: 2015--Wilson-S-R-Gunawardana-K-G-S-H-Mendelev-M-I--fictional-Na-2/1/FictionalNa2_MendelevM_2015.eam.fs
+- elements:
+  - Zr
+  pot_file: 2007--Mendelev-M-I-Ackland-G-J--Zr-1/1/Zr_1.eam.fs
+- elements:
+  - Nb
+  - Ni
+  pot_file: 2022--Mendelev-M-I--Ni-Nb/1/v1_18_NiNb_B2.eam.fs
+- elements:
+  - Li
+  pot_file: 2016--Nichol-A-Ackland-G-J--Li/2/Li.eam.fs
+- elements:
+  - Li
+  pot_file: 2016--Nichol-A-Ackland-G-J--Li/3/Li_v2.eam.fs
+- elements:
+  - Fe
+  - H
+  pot_file: 2021--Wen-M--Fe-H/1/FeH_Wen.eam.fs
+- elements:
+  - W
+  pot_file: 2003--Han-S-Zepeda-Ruiz-L-A-Ackland-G-J-et-al--W/2/W.eam.fs
+- elements:
+  - Ni
+  - Zr
+  pot_file: 2012--Mendelev-M-I-Kramer-M-J-Hao-S-G-et-al--Ni-Zr/1/Ni-Zr_Mendelev_2012.eam.fs
+- elements:
+  - Ag
+  - Ni
+  pot_file: 2018--Pan-Z-Borovikov-V-Mendelev-M-I-Sansoz-F--Ag-Ni/1/Ag-Ni.eam.fs
+- elements:
+  - Fe
+  pot_file: 2003--Mendelev-M-I-Han-S-Srolovitz-D-J-et-al--Fe-5/1/Fe_5.eam.fs
+- elements:
+  - Zr
+  pot_file: 1995--Ackland-G-J-Wooding-S-J-Bacon-D-J--Zr/2/Zr.eam.fs
+- elements:
+  - Cu
+  - fictional
+  pot_file: 2016--Borovikov-V-Mendelev-M-I-King-A-H--fictional-Cu-34/1/MCu34.eam.fs
+- elements:
+  - Al
+  - fictional
+  pot_file: 2010--Mendelev-M-I-Rahman-M-J-Hoyt-J-J-Asta-M--fictional-Al-3/1/Fictional-Al1-3.eam.fs
+- elements:
+  - Cu
+  - Zr
+  pot_file: 2016--Borovikov-V-Mendelev-M-I-King-A-H--Cu-Zr/1/CuZr_3.eam.fs
+- elements:
+  - He
+  - Ta
+  - W
+  pot_file: 2021--Chen-Y-Fang-J-Liao-X-et-al--W-Ta-He/1/WTaHe.eam.fs
+- elements:
+  - Zr
+  pot_file: 2007--Mendelev-M-I-Ackland-G-J--Zr-2/2/Zr_2.eam.fs
+- elements:
+  - Zr
+  pot_file: 2007--Mendelev-M-I-Ackland-G-J--Zr-2/1/Zr_2.eam.fs
+- elements:
+  - Al
+  - Fe
+  pot_file: 2005--Mendelev-M-I-Srolovitz-D-J-Ackland-G-J-Han-S--Al-Fe/1/Al-Fe.eam.fs
+- elements:
+  - Na
+  pot_file: 2016--Nichol-A-Ackland-G-J--Na/2/Na.eam.fs
+- elements:
+  - Na
+  pot_file: 2016--Nichol-A-Ackland-G-J--Na/3/Na_v2.eam.fs
+- elements:
+  - Ti
+  pot_file: 2016--Mendelev-M-I-Underwood-T-L-Ackland-G-J--Ti-1/1/Ti1.eam.fs
+- elements:
+  - Al
+  - Ni
+  pot_file: 2022--Mendelev-M-I--Ni-Al/1/Ni-Al.eam.fs
+- elements:
+  - W
+  - fictional
+  pot_file: 2016--Wilson-S-R-Mendelev-M-I--fictional-W/1/W2.eam.fs
+- elements:
+  - Al
+  pot_file: 2000--Sturgeon-J-B-Laird-B-B--Al/1/MDSL.eam.fs
+- elements:
+  - Fe
+  pot_file: 2022--Sun-Y-Zhang-F-Mendelev-M-I-et-al--Fe/1/Fe_Earth_core.eam.fs
+- elements:
+  - II
+  - Pb
+  pot_file: 2018--Wang-K-Zhu-W-Xiang-M-et-al--Pb-II/1/Pb_Wang02.eam.fs
+- elements:
+  - Cu
+  - fictional
+  pot_file: 2016--Borovikov-V-Mendelev-M-I-King-A-H--fictional-Cu-32/1/MCu32.eam.fs
+- elements:
+  - Al
+  - Sm
+  pot_file: 2015--Mendelev-M-I-Zhang-F-Ye-Z-et-al--Al-Sm/1/Al90Sm10_MendelevM_2014.eam.fs
+- elements:
+  - Fe
+  - P
+  pot_file: 2004--Ackland-G-J-Mendelev-M-I-Srolovitz-D-J-et-al--Fe-P/2/Fe-P.eam.fs
+- elements:
+  - Mg
+  - fictional
+  pot_file: 2016--Wilson-S-R-Mendelev-M-I--fictional-Mg/1/Mg1-prime.eam.fs
+- elements:
+  - Cu
+  - Zr
+  pot_file: 2007--Mendelev-M-I-Sordelet-D-J-Kramer-M-J--Cu-Zr/1/Cu-Zr.eam.fs
+- elements:
+  - Cu
+  - fictional
+  pot_file: 2015--Borovikov-V-Mendelev-M-I-King-A-H-LeSar-R--fictional-Cu-5/1/MCu5_MendelevM_2014.eam.fs
+- elements:
+  - Ag
+  pot_file: 1987--Ackland-G-J-Tichy-G-Vitek-V-Finnis-M-W--Ag/2/Ag.eam.fs
+- elements:
+  - Ag
+  pot_file: 1987--Ackland-G-J-Tichy-G-Vitek-V-Finnis-M-W--Ag/3/Ag_v2.eam.fs
+- elements:
+  - Tb
+  pot_file: 2018--Mendelev-M-I-Zhang-F-Song-H-et-al--Tb/1/Tb.eam.fs
+- elements:
+  - Cu
+  pot_file: 1987--Ackland-G-J-Tichy-G-Vitek-V-Finnis-M-W--Cu/2/Cu.eam.fs
+- elements:
+  - Cu
+  pot_file: 1987--Ackland-G-J-Tichy-G-Vitek-V-Finnis-M-W--Cu/3/Cu1_v2.eam.fs
+- elements:
+  - Re
+  - W
+  pot_file: 2019--Chen-Y-Fang-J-Liu-L-et-al--W-Re/1/WRe_YC2.eam.fs
+- elements:
+  - Ti
+  pot_file: 2016--Mendelev-M-I-Underwood-T-L-Ackland-G-J--Ti-2/1/Ti2.eam.fs
+- elements:
+  - Re
+  - W
+  pot_file: 2018--Chen-Y-Li-Y-H-Gao-N-et-al--W-Re/1/WRe_YC1.eam.fs
+- elements:
+  - Fe
+  - H
+  pot_file: 2023--Kumar-P-Ludhwani-M-M-Das-S-et-al--Fe-H/1/Fe_H_Kumar2023.eam.fs
+- elements:
+  - Na
+  - fictional
+  pot_file: 2015--Wilson-S-R-Gunawardana-K-G-S-H-Mendelev-M-I--fictional-Na-3/1/FictionalNa3_MendelevM_2015.eam.fs
+- elements:
+  - Cs
+  pot_file: 2016--Nichol-A-Ackland-G-J--Cs/2/Cs.eam.fs
+- elements:
+  - Cs
+  pot_file: 2016--Nichol-A-Ackland-G-J--Cs/3/Cs_v2.eam.fs
+- elements:
+  - Al
+  - Sm
+  pot_file: 2021--Song-H-Mendelev-M-I--Al-Sm/1/v2_18_Al3Sm_2016.eam.fs
+- elements:
+  - Fe
+  - V
+  pot_file: 2007--Mendelev-M-I-Han-S-Son-W-et-al--V-Fe/1/V-Fe.eam.fs
+- elements:
+  - Al
+  - Sm
+  pot_file: 2021--Mendelev-M--Al-Sm/1/v2_18_Al3Sm_2016.eam.fs
+- elements:
+  - Ru
+  pot_file: 2008--Fortini-A-Mendelev-M-I-Buldyrev-S-Srolovitz-D--Ru/1/Ru.eam.fs
+- elements:
+  - Cr
+  - Fe
+  - Ni
+  pot_file: 2019--Mendelev-M-I--Fe-Ni-Cr/1/Fe-Ni-Cr_fcc.eam.fs
+- elements:
+  - Mg
+  pot_file: 2016--Wilson-S-R-Mendelev-M-I--Mg/1/Mg1.eam.fs
+- elements:
+  - Cr
+  - Fe
+  pot_file: 2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_lammps.eam.fs
+- elements:
+  - Ti
+  pot_file: 2016--Mendelev-M-I-Underwood-T-L-Ackland-G-J--Ti-3/1/Ti3.eam.fs
+- elements:
+  - Na
+  pot_file: 2015--Wilson-S-R-Gunawardana-K-G-S-H-Mendelev-M-I--Na/1/Na_MendelevM_2014.eam.fs
+- elements:
+  - Al
+  - fictional
+  pot_file: 2010--Mendelev-M-I-Rahman-M-J-Hoyt-J-J-Asta-M--fictional-Al-2/1/Fictional-Al1-2.eam.fs
+- elements:
+  - Fe
+  pot_file: 1997--Ackland-G-J-Bacon-D-J-Calder-A-F-Harry-T--Fe/2/Fe.eam.fs
+- elements:
+  - Ta
+  - W
+  pot_file: 2019--Chen-Y-Fang-J-Liu-L-et-al--W-Ta/1/WTa.eam.fs
+- elements:
+  - Au
+  pot_file: 1987--Ackland-G-J-Tichy-G-Vitek-V-Finnis-M-W--Au/2/Au.eam.fs
+- elements:
+  - Au
+  pot_file: 1987--Ackland-G-J-Tichy-G-Vitek-V-Finnis-M-W--Au/3/Au_v2.eam.fs
+- elements:
+  - Ni
+  pot_file: 1987--Ackland-G-J-Tichy-G-Vitek-V-Finnis-M-W--Ni/2/Ni.eam.fs
+- elements:
+  - Ni
+  pot_file: 1987--Ackland-G-J-Tichy-G-Vitek-V-Finnis-M-W--Ni/3/Ni_v2.eam.fs
+- elements:
+  - Cu
+  - fictional
+  pot_file: 2015--Borovikov-V-Mendelev-M-I-King-A-H-LeSar-R--fictional-Cu-3/1/MCu3_MendelevM_2014.eam.fs
+- elements:
+  - Cu
+  - fictional
+  pot_file: 2015--Borovikov-V-Mendelev-M-I-King-A-H-LeSar-R--fictional-Cu-4/1/MCu4_MendelevM_2014.eam.fs
+- elements:
+  - Mo
+  - W
+  pot_file: 2020--Chen-Y-Liao-X-Gao-N-et-al--W-Mo/1/WMo.eam.fs
+- elements:
+  - Ni
+  - Zr
+  pot_file: 2015--Wilson-S-R-Mendelev-M-I--Ni-Zr/1/Ni-Zr_Mendelev_2014.eam.fs
+- elements:
+  - Fe
+  pot_file: 2003--Mendelev-M-I-Han-S-Srolovitz-D-J-et-al--Fe-2/1/Fe_2.eam.fs
+- elements:
+  - Fe
+  pot_file: 2003--Mendelev-M-I-Han-S-Srolovitz-D-J-et-al--Fe-2/3/Fe_2.eam.fs
+- elements:
+  - Cu
+  pot_file: 1990--Ackland-G-J-Vitek-V--Cu/2/Cu2.eam.fs
+- elements:
+  - Cu
+  pot_file: 1990--Ackland-G-J-Vitek-V--Cu/1/Cu2.eam.fs
+- elements:
+  - Ti
+  pot_file: 1992--Ackland-G-J--Ti/2/Ti.eam.fs
+- elements:
+  - Ti
+  pot_file: 1992--Ackland-G-J--Ti/3/Ti_v2.eam.fs
+- elements:
+  - C
+  - Fe
+  pot_file: 2008--Hepburn-D-J-Ackland-G-J--Fe-C/1/Fe-C_Hepburn_Ackland.eam.fs
+- elements:
+  - Cu
+  - Zr
+  pot_file: 2019--Mendelev-M-I-Sun-Y-Zhang-F-et-al--Cu-Zr/1/Cu-Zr_4.eam.fs
+- elements:
+  - Ni
+  pot_file: 2012--Mendelev-M-I-Kramer-M-J-Hao-S-G-et-al--Ni/1/Ni1_Mendelev_2012.eam.fs
+- elements:
+  - Cu
+  - fictional
+  pot_file: 2015--Borovikov-V-Mendelev-M-I-King-A-H-LeSar-R--fictional-Cu-1/1/MCu1_MendelevM_2014.eam.fs
