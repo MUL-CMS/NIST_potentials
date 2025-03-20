@@ -14,7 +14,7 @@ def cd(folder):
     os.chdir(folder)
   
 ROOT = os.getcwd()
-model = "eam.fs"
+model = "eam.alloy"
 if not os.path.exists(model):
     os.mkdir(model)
 

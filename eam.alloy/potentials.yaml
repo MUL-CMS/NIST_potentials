@@ -1,61 +1,14 @@
-pot_root: /home/david/work/LAMMPS_potentials/NIST_potentials/eam.alloy
+pot_root: /home/david/tmp/NIST_potentials/eam.alloy
 potentials:
 - elements:
-  - Al
-  - Mg
-  pot_file: 1997--Liu-X-Y-Ohotnicky-P-P-Adams-J-B-et-al--Al-Mg/2/mg-al-set.eam.alloy
-- elements:
-  - Cu
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Cu/4/Cu_Zhou04.eam.alloy
-- elements:
-  - Ta
-  pot_file: 2013--Ravelo-R-Germann-T-C-Guerrero-O-et-al--Ta-1/1/Ta1_Ravelo_2013.eam.alloy
-- elements:
-  - Co
-  - Ni
-  pot_file: 2015--Purja-Pun-G-P-Yamakov-V-Mishin-Y--Ni-Co/2/Mishin_updated-Ni-Co-2013.eam.alloy
-- elements:
-  - Co
-  - Ni
-  pot_file: 2015--Purja-Pun-G-P-Yamakov-V-Mishin-Y--Ni-Co/1/Mishin-Ni-Co-2013.eam.alloy
-- elements:
-  - Ti
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ti/4/Ti_Zhou04.eam.alloy
+  - V
+  pot_file: 2009--Olsson-P-A-T--V/2/V_Olsson_CMS2009.eam.alloy
 - elements:
   - Fe
-  pot_file: 2006--Chamati-H-Papanicolaou-N-I-Mishin-Y-Papaconstantopoulos-D-A--Fe/2/Fe_Mishin2006.eam.alloy
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Fe/4/Fe_Zhou04.eam.alloy
 - elements:
-  - Ag
-  - Cu
-  pot_file: 2006--Williams-P-L-Mishin-Y-Hamilton-J-C--Cu-Ag/2/CuAg.eam.alloy
-- elements:
-  - Cu
-  - Zn
-  pot_file: 2022--Clement-A-Auger-T--Cu-Zn/1/CuZn.eam.alloy
-- elements:
-  - Mo
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Mo/4/Mo_Zhou04.eam.alloy
-- elements:
-  - Cu
-  - Ni
-  pot_file: 2013--Onat-B-Durukanoglu-S--Cu-Ni/2/CuNi_v2.eam.alloy
-- elements:
-  - Cu
-  - Ni
-  pot_file: 2013--Onat-B-Durukanoglu-S--Cu-Ni/1/CuNi.eam.alloy
-- elements:
-  - Cr
-  - Fe
-  - Ni
-  pot_file: 2017--Bonny-G-Bakaev-A-Olsson-P-et-al--Fe-Cr-Ni/1/FeCrNi_d.eam.alloy
-- elements:
-  - Al
-  - Pb
-  pot_file: 2000--Landa-A-Wynblatt-P-Siegel-D-J-et-al--Al-Pb/2/alpb-setfl.eam.alloy
-- elements:
-  - He
   - Ta
-  pot_file: 2019--Duan-X-Xie-F-Guo-X-et-al--Ta-He/1/Ta_Zhou04.eam.alloy
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ta/4/Ta_Zhou04.eam.alloy
 - elements:
   - Ag
   - Au
@@ -64,42 +17,20 @@ potentials:
 - elements:
   - Cr
   - Fe
-  - Ni
-  pot_file: 2013--Bonny-G-Castin-N-Terentyev-D--Fe-Ni-Cr/1/FeNiCr_Bonny_2013_ptDef.eam.alloy
+  pot_file: 2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_lammps.eam.alloy
+- elements:
+  - Mo
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Mo/4/Mo_Zhou04.eam.alloy
+- elements:
+  - Ag
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ag/4/Ag_Zhou04.eam.alloy
+- elements:
+  - Re
+  - W
+  pot_file: 2018--Setyawan-W-Gao-N-Kurtz-R-J--W-Re/1/WRe_Setyawan_set145.eam.alloy
 - elements:
   - Al
-  - Ni
-  pot_file: 2002--Mishin-Y-Mehl-M-J-Papaconstantopoulos-D-A--Ni-Al/2/NiAl02.eam.alloy
-- elements:
-  - Co
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Co/4/Co_Zhou04.eam.alloy
-- elements:
-  - C
-  - Cr
-  - Fe
-  pot_file: 2022--Bonny-G-Bakaev-A-Terentyev-D--Fe-C-Cr/1/FeCCr_d.eam.alloy
-- elements:
-  - Ta
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ta/4/Ta_Zhou04.eam.alloy
-- elements:
-  - W
-  pot_file: 2009--Olsson-P-A-T--W/2/W_Olsson_CMS2009.eam.alloy
-- elements:
-  - Au
-  - Pt
-  pot_file: 2017--OBrien-C-J-Barr-C-M-Price-P-M-et-al--Pt-Au/1/PtAu.eam.alloy
-- elements:
-  - Cr
-  - Fe
-  pot_file: 2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/2/FeCr_d.eam.alloy
-- elements:
-  - Cr
-  - Fe
-  pot_file: 2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/4/FeCr_d.eam.alloy
-- elements:
-  - Cr
-  - Fe
-  pot_file: 2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/3/FeCr_d.eam.alloy
+  pot_file: 1999--Mishin-Y-Farkas-D-Mehl-M-J-Papaconstantopoulos-D-A--Al/2/Al99.eam.alloy
 - elements:
   - Al
   - Cu
@@ -112,85 +43,8 @@ potentials:
   - Ni
   pot_file: 2021--Deluigi-O-R-Pasianot-R-C-Valencia-F-J-et-al--Fe-Ni-Cr-Co-Cu/1/FeNiCrCoCu-with-ZBL.eam.alloy
 - elements:
-  - Pt
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Pt/4/Pt_Zhou04.eam.alloy
-- elements:
-  - Nb
-  pot_file: 2010--Fellinger-M-R-Park-H-Wilkins-J-W--Nb/2/Nb.eam.alloy
-- elements:
-  - Cr
-  - Fe
-  - W
-  pot_file: 2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W/1/FeCrW_d.eam.alloy
-- elements:
-  - Cr
-  - Fe
-  - W
-  pot_file: 2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W/4/FeCrW_d.eam.alloy
-- elements:
-  - Cr
-  - Fe
-  - W
-  pot_file: 2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W/3/FeCrW_d.eam.alloy
-- elements:
-  - Au
-  pot_file: 2005--Grochola-G-Russo-S-P-Snook-I-K--Au/2/Au-Grochola-JCP05.eam.alloy
-- elements:
-  - Re
-  - W
-  pot_file: 2018--Setyawan-W-Gao-N-Kurtz-R-J--W-Re/1/WRe_Setyawan_set145.eam.alloy
-- elements:
-  - Li
-  - Pb
-  pot_file: 2023--Al-Awad-A-S-Batet-L-Sedano-L--Pb-Li/1/Liquid-Li-EAM-LRO_Liquid-Pb-EAM-RDF.eam.alloy
-- elements:
-  - Zr
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Zr/4/Zr_Zhou04.eam.alloy
-- elements:
-  - Ag
-  pot_file: 2006--Williams-P-L-Mishin-Y-Hamilton-J-C--Ag/2/Ag.eam.alloy
-- elements:
-  - Al
-  - Co
-  - Ni
-  pot_file: 2015--Purja-Pun-G-P-Yamakov-V-Mishin-Y--Ni-Al-Co/2/Mishin_updated-Ni-Al-Co-2013.eam.alloy
-- elements:
-  - Al
-  - Co
-  - Ni
-  pot_file: 2015--Purja-Pun-G-P-Yamakov-V-Mishin-Y--Ni-Al-Co/1/Mishin-Ni-Al-Co-2013.eam.alloy
-- elements:
-  - Cu
-  - Ta
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ta-Cu/4/TaCu_Zhou04.eam.alloy
-- elements:
-  - Ag
-  - H
-  - Morse
   - Pd
-  pot_file: 2013--Hale-L-M-Wong-B-M-Zimmerman-J-A-Zhou-X-W--Pd-Ag-H-Morse/1/PdAgH_MorsePd3Ag.eam.alloy
-- elements:
-  - Al
-  - Ni
-  pot_file: 2004--Mishin-Y--Ni-Al/2/NiAl.eam.alloy
-- elements:
-  - Al
-  - Ni
-  pot_file: 2004--Mishin-Y--Ni-Al/4/NiAl_Mishin_2004.eam.alloy
-- elements:
-  - Co
-  - Cr
-  - Cu
-  - Fe
-  - Ni
-  pot_file: 2018--Farkas-D-Caro-A--Fe-Ni-Cr-Co-Cu/1/FeNiCrCoCu-heamix.eam.alloy
-- elements:
-  - Au
-  pot_file: 2017--Purja-Pun-G-P--Au/1/Au_GLJ10_3.eam.alloy
-- elements:
-  - H
-  - W
-  pot_file: 2023--Mason-D-R-Nguyen-Manh-D-Lindblad-V-W-et-al--W-H/1/MNL6_WH.eam.alloy
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Pd/4/Pd_Zhou04.eam.alloy
 - elements:
   - Au
   pot_file: 2009--Zhakhovskii-V-V-Inogamov-N-A-Petrov-Y-V-et-al--Au/2/Au-2009.eam.alloy
@@ -198,32 +52,49 @@ potentials:
   - Au
   pot_file: 2009--Zhakhovskii-V-V-Inogamov-N-A-Petrov-Y-V-et-al--Au/1/Au-2009.eam.alloy
 - elements:
-  - Ta
-  pot_file: 2013--Ravelo-R-Germann-T-C-Guerrero-O-et-al--Ta-2/1/Ta2_Ravelo_2013.eam.alloy
-- elements:
-  - Cu
-  - Fe
-  - Ni
-  pot_file: 2023--Tramontina-D-R-Deluigi-O-R-Pinzon-R-et-al--Fe-Cu-Ni/1/FeCuNi-with-ZBL.eam.alloy
-- elements:
-  - V
-  pot_file: 2009--Olsson-P-A-T--V/2/V_Olsson_CMS2009.eam.alloy
-- elements:
-  - Pb
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Pb/4/Pb_Zhou04.eam.alloy
-- elements:
-  - Fe
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Fe/4/Fe_Zhou04.eam.alloy
-- elements:
   - Al
-  pot_file: 2003--Zope-R-R-Mishin-Y--Al/2/Al03.eam.alloy
-- elements:
-  - Mg
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Mg/4/Mg_Zhou04.eam.alloy
+  - Ni
+  pot_file: 2009--Purja-Pun-G-P-Mishin-Y--Ni-Al/2/Mishin-Ni-Al-2009.eam.alloy
 - elements:
   - Ag
   - Cu
-  pot_file: 2009--Wu-H-H-Trinkle-D-R--Cu-Ag/1/cu_ag_ymwu.eam.alloy
+  pot_file: 2006--Williams-P-L-Mishin-Y-Hamilton-J-C--Cu-Ag/2/CuAg.eam.alloy
+- elements:
+  - Co
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Co/4/Co_Zhou04.eam.alloy
+- elements:
+  - Al
+  - Ni
+  pot_file: 2002--Mishin-Y-Mehl-M-J-Papaconstantopoulos-D-A--Ni-Al/2/NiAl02.eam.alloy
+- elements:
+  - Cr
+  - Fe
+  - Mn
+  - Ni
+  pot_file: 2022--Daramola-A-Bonny-G-Adjanor-G-et-al--Fe-Ni-Cr-Mn/1/FeNiCrMn_EAM_Daramola2022.eam.alloy
+- elements:
+  - W
+  pot_file: 2009--Olsson-P-A-T--W/2/W_Olsson_CMS2009.eam.alloy
+- elements:
+  - Al
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Al/4/Al_Zhou04.eam.alloy
+- elements:
+  - Al
+  - Ti
+  pot_file: 2003--Zope-R-R-Mishin-Y--Ti-Al/2/Zope-Ti-Al-2003.eam.alloy
+- elements:
+  - H
+  - W
+  pot_file: 2023--Mason-D-R-Nguyen-Manh-D-Lindblad-V-W-et-al--W-H/1/MNL6_WH.eam.alloy
+- elements:
+  - Co
+  pot_file: 2012--Purja-Pun-G-P-Mishin-Y--Co/1/Co_PurjaPun_2012.eam.alloy
+- elements:
+  - Cu
+  - Fe
+  - Mn
+  - Ni
+  pot_file: 2013--Bonny-G-Terentyev-D-Bakaev-A-et-al--Fe-Cu-Ni-Mn/2/FeCuNiMn.eam.alloy
 - elements:
   - Cr
   - Fe
@@ -235,141 +106,12 @@ potentials:
   - Ni
   pot_file: 2011--Bonny-G-Terentyev-D-Pasianot-R-C-et-al--Fe-Ni-Cr/3/FeNiCr.eam.alloy
 - elements:
-  - Ag
-  - H
-  - Hybrid
-  - Pd
-  pot_file: 2013--Hale-L-M-Wong-B-M-Zimmerman-J-A-Zhou-X-W--Pd-Ag-H-Hybrid/1/PdAgH_HybridPd3Ag.eam.alloy
-- elements:
-  - Al
-  pot_file: 2004--Liu-X-Y-Ercolessi-F-Adams-J-B--Al/2/Al-LEA.eam.alloy
-- elements:
-  - Re
-  - W
-  pot_file: 2017--Bonny-G-Bakaev-A-Terentyev-D-Mastrikov-Y-A--W-Re/2/WRe.eam.alloy
-- elements:
-  - Cu
-  - Fe
-  - Mn
-  - Ni
-  pot_file: 2013--Bonny-G-Terentyev-D-Bakaev-A-et-al--Fe-Cu-Ni-Mn/2/FeCuNiMn.eam.alloy
-- elements:
-  - W
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--W/4/W_Zhou04.eam.alloy
-- elements:
-  - Al
-  - Co
-  pot_file: 2015--Purja-Pun-G-P-Yamakov-V-Mishin-Y--Al-Co/2/Mishin_updated-Al-Co-2013.eam.alloy
-- elements:
-  - Al
-  - Co
-  pot_file: 2015--Purja-Pun-G-P-Yamakov-V-Mishin-Y--Al-Co/1/Mishin-Al-Co-2013.eam.alloy
-- elements:
   - Fe
   - W
   pot_file: 2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-W/1/FeW.eam.alloy
 - elements:
-  - Ta
-  pot_file: 2003--Li-Y-Siegel-D-J-Adams-J-B-Liu-X-Y--Ta/2/newPP1_47-setfl.eam.alloy
-- elements:
-  - Ni
-  pot_file: 1999--Mishin-Y-Farkas-D-Mehl-M-J-Papaconstantopoulos-D-A--Ni/2/Ni99.eam.alloy
-- elements:
-  - Mo
-  pot_file: 1987--Ackland-G-J-Thetford-R--Mo/4/mo.fs.eam.alloy
-- elements:
-  - Mo
-  pot_file: 1987--Ackland-G-J-Thetford-R--Mo/3/mo.fs.eam.alloy
-- elements:
-  - Au
-  pot_file: 2012--Norman-G-E-Starikov-S-V-Stegailov-V-V--Au/1/Au_5T.eam.alloy
-- elements:
   - Al
-  - Mg
-  pot_file: 1998--Liu-X-Y-Adams-J-B--Al-Mg/2/almg.liu.eam.alloy
-- elements:
-  - Al
-  - H
-  - Ni
-  pot_file: 1995--Angelo-J-E-Moody-N-R-Baskes-M-I--Ni-Al-H/1/NiAlH_jea.eam.alloy
-- elements:
-  - Al
-  - Nb
-  - Ti
-  pot_file: 1996--Farkas-D-Jones-C--Nb-Ti-Al/1/Farkas_Nb-Ti-Al_1996.eam.alloy
-- elements:
-  - Ag
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ag/4/Ag_Zhou04.eam.alloy
-- elements:
-  - Al
-  - Ti
-  pot_file: 2003--Zope-R-R-Mishin-Y--Ti-Al/2/Zope-Ti-Al-2003.eam.alloy
-- elements:
-  - Al
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Al/4/Al_Zhou04.eam.alloy
-- elements:
-  - Cr
-  - Fe
-  pot_file: 2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_lammps.eam.alloy
-- elements:
-  - Li
-  pot_file: 2023--Al-Awad-A-S-Batet-L-Sedano-L--Li/1/Liquid-Li-EAM-LRO.eam.alloy
-- elements:
-  - Cu
-  - Fe
-  - Ni
-  pot_file: 2009--Bonny-G-Pasianot-R-C-Castin-N-Malerba-L--Fe-Cu-Ni/1/FeCuNi.eam.alloy
-- elements:
-  - Au
-  pot_file: 2010--Olsson-P-A-T--Au/2/Au_Olsson_JAP2010.eam.alloy
-- elements:
-  - Be
-  pot_file: 2013--Agrawal-A-Mishra-R-Ward-L-et-al--Be/1/Be_Agrawal.eam.alloy
-- elements:
-  - Ni
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ni/4/Ni_Zhou04.eam.alloy
-- elements:
-  - Au
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Au/4/Au_Zhou04.eam.alloy
-- elements:
-  - Co
-  pot_file: 2012--Purja-Pun-G-P-Mishin-Y--Co/1/Co_PurjaPun_2012.eam.alloy
-- elements:
-  - Al
-  - Ni
-  pot_file: 2009--Purja-Pun-G-P-Mishin-Y--Ni-Al/2/Mishin-Ni-Al-2009.eam.alloy
-- elements:
-  - Pd
-  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Pd/4/Pd_Zhou04.eam.alloy
-- elements:
-  - Al
-  pot_file: 1999--Mishin-Y-Farkas-D-Mehl-M-J-Papaconstantopoulos-D-A--Al/2/Al99.eam.alloy
-- elements:
-  - H
-  - He
-  - W
-  pot_file: 2014--Bonny-G-Grigorev-P-Terentyev-D--W-H-He-1/1/potential-WHHe-EAM1.eam.alloy
-- elements:
-  - Al
-  pot_file: 2009--Zhakhovskii-V-V-Inogamov-N-A-Petrov-Y-V-et-al--Al/2/Al-2009.eam.alloy
-- elements:
-  - Al
-  pot_file: 2009--Zhakhovskii-V-V-Inogamov-N-A-Petrov-Y-V-et-al--Al/1/Al-2009.eam.alloy
-- elements:
-  - Cu
-  pot_file: 2001--Mishin-Y-Mehl-M-J-Papaconstantopoulos-D-A-et-al--Cu-1/2/Cu01.eam.alloy
-- elements:
-  - Cu
-  - Ni
-  pot_file: 2019--Fischer-F-Schmitz-G-Eich-S-M--Cu-Ni/2/Cu_Ni_Fischer_2018.eam.alloy
-- elements:
-  - Cu
-  - Ni
-  pot_file: 2019--Fischer-F-Schmitz-G-Eich-S-M--Cu-Ni/5/Cu_Ni_Fischer_2018.eam.alloy
-- elements:
-  - Cu
-  - Ni
-  pot_file: 2019--Fischer-F-Schmitz-G-Eich-S-M--Cu-Ni/3/Cu_Ni_Fischer_2018.eam.alloy
+  pot_file: 2004--Liu-X-Y-Ercolessi-F-Adams-J-B--Al/2/Al-LEA.eam.alloy
 - elements:
   - Mo
   - U
@@ -381,14 +123,306 @@ potentials:
   - Xe
   pot_file: 2013--Smirnova-D-E-Kuksin-A-Y-Starikov-S-V-et-al--U-Mo-Xe/1/U_Mo_Xe.2013.eam.alloy
 - elements:
+  - Zr
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Zr/4/Zr_Zhou04.eam.alloy
+- elements:
+  - Cu
+  - Zn
+  pot_file: 2022--Clement-A-Auger-T--Cu-Zn/1/CuZn.eam.alloy
+- elements:
+  - Fe
+  pot_file: 2009--Olsson-P-A-T--Fe/2/Fe_Olsson_CMS2009.eam.alloy
+- elements:
+  - Au
+  - Pt
+  pot_file: 2017--OBrien-C-J-Barr-C-M-Price-P-M-et-al--Pt-Au/1/PtAu.eam.alloy
+- elements:
+  - He
+  - Ta
+  pot_file: 2019--Duan-X-Xie-F-Guo-X-et-al--Ta-He/1/Ta_Zhou04.eam.alloy
+- elements:
+  - Ag
+  - Cu
+  pot_file: 2009--Wu-H-H-Trinkle-D-R--Cu-Ag/1/cu_ag_ymwu.eam.alloy
+- elements:
+  - Re
+  - W
+  pot_file: 2017--Bonny-G-Bakaev-A-Terentyev-D-Mastrikov-Y-A--W-Re/2/WRe.eam.alloy
+- elements:
+  - Al
+  - Pb
+  pot_file: 2000--Landa-A-Wynblatt-P-Siegel-D-J-et-al--Al-Pb/2/alpb-setfl.eam.alloy
+- elements:
+  - Cr
+  - Fe
+  - W
+  pot_file: 2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W/4/FeCrW_d.eam.alloy
+- elements:
+  - Cr
+  - Fe
+  - W
+  pot_file: 2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W/1/FeCrW_d.eam.alloy
+- elements:
+  - Cr
+  - Fe
+  - W
+  pot_file: 2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W/3/FeCrW_d.eam.alloy
+- elements:
+  - Nb
+  pot_file: 2010--Fellinger-M-R-Park-H-Wilkins-J-W--Nb/2/Nb.eam.alloy
+- elements:
+  - Au
+  pot_file: 2012--Norman-G-E-Starikov-S-V-Stegailov-V-V--Au/1/Au_5T.eam.alloy
+- elements:
+  - Cu
+  - Ni
+  pot_file: 2019--Fischer-F-Schmitz-G-Eich-S-M--Cu-Ni/5/Cu_Ni_Fischer_2018.eam.alloy
+- elements:
+  - Cu
+  - Ni
+  pot_file: 2019--Fischer-F-Schmitz-G-Eich-S-M--Cu-Ni/2/Cu_Ni_Fischer_2018.eam.alloy
+- elements:
+  - Cu
+  - Ni
+  pot_file: 2019--Fischer-F-Schmitz-G-Eich-S-M--Cu-Ni/3/Cu_Ni_Fischer_2018.eam.alloy
+- elements:
+  - Ag
+  - H
+  - Hybrid
+  - Pd
+  pot_file: 2013--Hale-L-M-Wong-B-M-Zimmerman-J-A-Zhou-X-W--Pd-Ag-H-Hybrid/1/PdAgH_HybridPd3Ag.eam.alloy
+- elements:
+  - Cu
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Cu/4/Cu_Zhou04.eam.alloy
+- elements:
+  - Cu
+  - Fe
+  - Ni
+  pot_file: 2023--Tramontina-D-R-Deluigi-O-R-Pinzon-R-et-al--Fe-Cu-Ni/1/FeCuNi-with-ZBL.eam.alloy
+- elements:
+  - Au
+  pot_file: 2005--Grochola-G-Russo-S-P-Snook-I-K--Au/2/Au-Grochola-JCP05.eam.alloy
+- elements:
+  - Ta
+  pot_file: 2003--Li-Y-Siegel-D-J-Adams-J-B-Liu-X-Y--Ta/2/newPP1_47-setfl.eam.alloy
+- elements:
+  - Al
+  - Mg
+  pot_file: 1998--Liu-X-Y-Adams-J-B--Al-Mg/2/almg.liu.eam.alloy
+- elements:
+  - Al
+  pot_file: 2009--Zhakhovskii-V-V-Inogamov-N-A-Petrov-Y-V-et-al--Al/2/Al-2009.eam.alloy
+- elements:
+  - Al
+  pot_file: 2009--Zhakhovskii-V-V-Inogamov-N-A-Petrov-Y-V-et-al--Al/1/Al-2009.eam.alloy
+- elements:
+  - Al
+  - Co
+  pot_file: 2015--Purja-Pun-G-P-Yamakov-V-Mishin-Y--Al-Co/2/Mishin_updated-Al-Co-2013.eam.alloy
+- elements:
+  - Al
+  - Co
+  pot_file: 2015--Purja-Pun-G-P-Yamakov-V-Mishin-Y--Al-Co/1/Mishin-Al-Co-2013.eam.alloy
+- elements:
+  - Pt
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Pt/4/Pt_Zhou04.eam.alloy
+- elements:
+  - Mo
+  pot_file: 1987--Ackland-G-J-Thetford-R--Mo/4/mo.fs.eam.alloy
+- elements:
+  - Mo
+  pot_file: 1987--Ackland-G-J-Thetford-R--Mo/3/mo.fs.eam.alloy
+- elements:
+  - Cr
+  - Fe
+  pot_file: 2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/4/FeCr_d.eam.alloy
+- elements:
+  - Cr
+  - Fe
+  pot_file: 2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/2/FeCr_d.eam.alloy
+- elements:
+  - Cr
+  - Fe
+  pot_file: 2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/3/FeCr_d.eam.alloy
+- elements:
+  - Au
+  pot_file: 2017--Purja-Pun-G-P--Au/1/Au_GLJ10_3.eam.alloy
+- elements:
+  - Li
+  - Pb
+  pot_file: 2023--Al-Awad-A-S-Batet-L-Sedano-L--Pb-Li/1/Liquid-Li-EAM-LRO_Liquid-Pb-EAM-RDF.eam.alloy
+- elements:
+  - Al
+  - Co
+  - Ni
+  pot_file: 2015--Purja-Pun-G-P-Yamakov-V-Mishin-Y--Ni-Al-Co/2/Mishin_updated-Ni-Al-Co-2013.eam.alloy
+- elements:
+  - Al
+  - Co
+  - Ni
+  pot_file: 2015--Purja-Pun-G-P-Yamakov-V-Mishin-Y--Ni-Al-Co/1/Mishin-Ni-Al-Co-2013.eam.alloy
+- elements:
+  - Ta
+  pot_file: 2013--Ravelo-R-Germann-T-C-Guerrero-O-et-al--Ta-2/1/Ta2_Ravelo_2013.eam.alloy
+- elements:
+  - Ni
+  pot_file: 1999--Mishin-Y-Farkas-D-Mehl-M-J-Papaconstantopoulos-D-A--Ni/2/Ni99.eam.alloy
+- elements:
+  - Al
+  - Nb
+  - Ti
+  pot_file: 1996--Farkas-D-Jones-C--Nb-Ti-Al/1/Farkas_Nb-Ti-Al_1996.eam.alloy
+- elements:
+  - Ag
+  - Al
+  - Au
+  - Co
+  - Cu
+  - Fe
+  - Mg
+  - Mo
+  - Ni
+  - Pb
+  - Pd
+  - Pt
+  - Ta
+  - Ti
+  - W
+  - Zr
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Cu-Ag-Au-Ni-Pd-Pt-Al-Pb-Fe-Mo-Ta-W-Mg-Co-Ti-Zr/1/CuAgAuNiPdPtAlPbFeMoTaWMgCoTiZr_Zhou04.eam.alloy
+- elements:
+  - Cu
+  - Fe
+  - Ni
+  pot_file: 2009--Bonny-G-Pasianot-R-C-Castin-N-Malerba-L--Fe-Cu-Ni/1/FeCuNi.eam.alloy
+- elements:
+  - Ag
+  pot_file: 2006--Williams-P-L-Mishin-Y-Hamilton-J-C--Ag/2/Ag.eam.alloy
+- elements:
+  - Be
+  pot_file: 2013--Agrawal-A-Mishra-R-Ward-L-et-al--Be/1/Be_Agrawal.eam.alloy
+- elements:
+  - Ti
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ti/4/Ti_Zhou04.eam.alloy
+- elements:
+  - W
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--W/4/W_Zhou04.eam.alloy
+- elements:
+  - Cu
+  pot_file: 2001--Mishin-Y-Mehl-M-J-Papaconstantopoulos-D-A-et-al--Cu-1/2/Cu01.eam.alloy
+- elements:
+  - C
+  - Cr
+  - Fe
+  pot_file: 2022--Bonny-G-Bakaev-A-Terentyev-D--Fe-C-Cr/1/FeCCr_d.eam.alloy
+- elements:
+  - Au
+  pot_file: 2010--Olsson-P-A-T--Au/2/Au_Olsson_JAP2010.eam.alloy
+- elements:
+  - Au
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Au/4/Au_Zhou04.eam.alloy
+- elements:
+  - Al
+  - H
+  - Ni
+  pot_file: 1995--Angelo-J-E-Moody-N-R-Baskes-M-I--Ni-Al-H/1/NiAlH_jea.eam.alloy
+- elements:
+  - Pb
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Pb/4/Pb_Zhou04.eam.alloy
+- elements:
+  - Ta
+  pot_file: 2013--Ravelo-R-Germann-T-C-Guerrero-O-et-al--Ta-1/1/Ta1_Ravelo_2013.eam.alloy
+- elements:
+  - Cr
+  - Fe
+  - Ni
+  pot_file: 2017--Bonny-G-Bakaev-A-Olsson-P-et-al--Fe-Cr-Ni/1/FeCrNi_d.eam.alloy
+- elements:
   - H
   - He
   - W
   pot_file: 2014--Bonny-G-Grigorev-P-Terentyev-D--W-H-He-2/1/potential-WHHe-EAM2.eam.alloy
 - elements:
+  - Cu
+  - Ni
+  pot_file: 2013--Onat-B-Durukanoglu-S--Cu-Ni/2/CuNi_v2.eam.alloy
+- elements:
+  - Cu
+  - Ni
+  pot_file: 2013--Onat-B-Durukanoglu-S--Cu-Ni/1/CuNi.eam.alloy
+- elements:
+  - Ag
+  - H
+  - Morse
+  - Pd
+  pot_file: 2013--Hale-L-M-Wong-B-M-Zimmerman-J-A-Zhou-X-W--Pd-Ag-H-Morse/1/PdAgH_MorsePd3Ag.eam.alloy
+- elements:
+  - Cr
   - Fe
-  pot_file: 2009--Olsson-P-A-T--Fe/2/Fe_Olsson_CMS2009.eam.alloy
+  - Ni
+  pot_file: 2013--Bonny-G-Castin-N-Terentyev-D--Fe-Ni-Cr/1/FeNiCr_Bonny_2013_ptDef.eam.alloy
+- elements:
+  - Al
+  - Ni
+  pot_file: 2004--Mishin-Y--Ni-Al/4/NiAl_Mishin_2004.eam.alloy
+- elements:
+  - Al
+  - Ni
+  pot_file: 2004--Mishin-Y--Ni-Al/2/NiAl.eam.alloy
+- elements:
+  - Ni
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ni/4/Ni_Zhou04.eam.alloy
+- elements:
+  - Co
+  - Cr
+  - Cu
+  - Fe
+  - Ni
+  pot_file: 2018--Farkas-D-Caro-A--Fe-Ni-Cr-Co-Cu/1/FeNiCrCoCu-heamix.eam.alloy
+- elements:
+  - H
+  - He
+  - W
+  pot_file: 2014--Bonny-G-Grigorev-P-Terentyev-D--W-H-He-1/1/potential-WHHe-EAM1.eam.alloy
+- elements:
+  - Co
+  - Ni
+  pot_file: 2015--Purja-Pun-G-P-Yamakov-V-Mishin-Y--Ni-Co/2/Mishin_updated-Ni-Co-2013.eam.alloy
+- elements:
+  - Co
+  - Ni
+  pot_file: 2015--Purja-Pun-G-P-Yamakov-V-Mishin-Y--Ni-Co/1/Mishin-Ni-Co-2013.eam.alloy
+- elements:
+  - Nb
+  - Zr
+  pot_file: 2024--Fan-Z-Maras-E-Cottura-M-et-al--Zr-Nb/1/ZrNb5.eam.alloy
+- elements:
+  - Al
+  - Mg
+  pot_file: 1997--Liu-X-Y-Ohotnicky-P-P-Adams-J-B-et-al--Al-Mg/2/mg-al-set.eam.alloy
+- elements:
+  - Cu
+  - Ta
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ta-Cu/4/TaCu_Zhou04.eam.alloy
+- elements:
+  - Li
+  pot_file: 2023--Al-Awad-A-S-Batet-L-Sedano-L--Li/1/Liquid-Li-EAM-LRO.eam.alloy
+- elements:
+  - Al
+  pot_file: 2003--Zope-R-R-Mishin-Y--Al/2/Al03.eam.alloy
 - elements:
   - Fe
   - Ni
   pot_file: 2009--Bonny-G-Pasianot-R-C-Malerba-L--Fe-Ni/1/Fe-Ni.eam.alloy
+- elements:
+  - Mg
+  pot_file: 2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Mg/4/Mg_Zhou04.eam.alloy
+- elements:
+  - Cr
+  - Fe
+  - Ni
+  - Pd
+  pot_file: 2021--Arora-G-Bonny-G-Castin-N-Aidhy-D-S--Fe-Ni-Cr-Pd/1/FeNiCrPd-new.eam.alloy
+- elements:
+  - Fe
+  pot_file: 2006--Chamati-H-Papanicolaou-N-I-Mishin-Y-Papaconstantopoulos-D-A--Fe/2/Fe_Mishin2006.eam.alloy
